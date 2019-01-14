@@ -1,0 +1,35 @@
+
+
+{% extends "base.html" %}
+ {% block content %}
+  <div class="container">
+      <div class = "col-sm-12">
+        <h1>The Sentiment Analysis Results</h1>
+        
+  <table class="table table-striped">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Comment</th>
+      <th scope="col">Language</th>
+      <th scope="col">+/-</th>
+    </tr>
+  </thead>
+  <tbody>
+  {% for i in z  %}
+
+  
+    <tr>
+      <th scope="row">{{i}}</th>
+      <td>{{ com_sent[i]}}</td>
+      <td>{{ lang_sent[i]}}</td>
+      <td>{{ sens_sent[i]}}</td>
+    </tr>
+    
+            
+  {% endfor %}
+  </tbody>
+</table>
+  
+  </div>
+{% endblock %}

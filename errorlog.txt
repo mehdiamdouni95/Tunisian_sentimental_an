@@ -1,0 +1,417 @@
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 70, in analysis
+    sens_sent = lang_sens_model.predict(dtm)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 66, in predict
+    jll = self._joint_log_likelihood(X)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 731, in _joint_log_likelihood
+    return (safe_sparse_dot(X, self.feature_log_prob_.T) +
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\extmath.py", line 168, in safe_sparse_dot
+    ret = a * b
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\scipy\sparse\base.py", line 518, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 70, in analysis
+    sens_sent = lang_sens_model.predict(dtm)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 66, in predict
+    jll = self._joint_log_likelihood(X)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 731, in _joint_log_likelihood
+    return (safe_sparse_dot(X, self.feature_log_prob_.T) +
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\extmath.py", line 168, in safe_sparse_dot
+    ret = a * b
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\scipy\sparse\base.py", line 518, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 70, in analysis
+    sens_sent = lang_sens_model.predict(dtm)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 66, in predict
+    jll = self._joint_log_likelihood(X)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 731, in _joint_log_likelihood
+    return (safe_sparse_dot(X, self.feature_log_prob_.T) +
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\extmath.py", line 168, in safe_sparse_dot
+    ret = a * b
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\scipy\sparse\base.py", line 518, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 70, in analysis
+    sens_sent = lang_sens_model.predict(dtm)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 66, in predict
+    jll = self._joint_log_likelihood(X)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\naive_bayes.py", line 731, in _joint_log_likelihood
+    return (safe_sparse_dot(X, self.feature_log_prob_.T) +
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\sklearn\utils\extmath.py", line 168, in safe_sparse_dot
+    ret = a * b
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\scipy\sparse\base.py", line 518, in __mul__
+    raise ValueError('dimension mismatch')
+ValueError: dimension mismatch
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 67, in analysis
+    dtmsens=bow_model.transform(wiou)
+NameError: name 'bow_model' is not defined
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 78, in analysis
+    dtmsens=tun_bow_model.transform(pd.Series(file_contents[n]))
+TypeError: string indices must be integers
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 78, in analysis
+    dtmsens=tun_bow_model.transform(pd.Series(file_contents[n]))
+TypeError: string indices must be integers
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 82, in analysis
+    return render_template('analysis.html', lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for i in len(documents) %}
+jinja2.exceptions.UndefinedError: 'len' is undefined
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',n=n, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for i in len(documents) %}
+jinja2.exceptions.UndefinedError: 'len' is undefined
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',n=n, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for i in n %}
+TypeError: 'int' object is not iterable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',n=n, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for message in analysis() %}
+jinja2.exceptions.UndefinedError: 'analysis' is undefined
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',n=n, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for result in n %}
+TypeError: 'int' object is not iterable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',n=n, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for result in n %}
+TypeError: 'int' object is not iterable
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',z=z, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 12, in block "content"
+    {% for com,lang,sens in com_sent,lang_sent,sens_sent  %}
+ValueError: too many values to unpack (expected 3)
+Exception on /analysis [GET]
+Traceback (most recent call last):
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1982, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1614, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1517, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\_compat.py", line 33, in reraise
+    raise value
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1612, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\app.py", line 1598, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "sa.py", line 83, in analysis
+    return render_template('analysis.html',z=z, lang_sent=lang_sent, sens_sent=sens_sent , com_sent=documents)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 134, in render_template
+    context, ctx.app)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\flask\templating.py", line 116, in _render
+    rv = template.render(context)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 989, in render
+    return self.environment.handle_exception(exc_info, True)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 754, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\_compat.py", line 37, in reraise
+    raise value.with_traceback(tb)
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\base.html", line 34, in top-level template code
+    {% block content %}
+  File "C:\Users\Dell\textm\Sentiment-Analyzer\templates\analysis.html", line 14, in block "content"
+    <td>{{ com[i]}}</td>
+  File "C:\Users\Dell\AppData\Local\Programs\Python\Python36\lib\site-packages\jinja2\environment.py", line 389, in getitem
+    return obj[argument]
+jinja2.exceptions.UndefinedError: 'com' is undefined
